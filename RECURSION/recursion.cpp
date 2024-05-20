@@ -51,13 +51,14 @@ int main()
 
 // Using Recurssion
 
-/* #include <bits/stdc++.h>
+/*
+#include <bits/stdc++.h>
 using namespace std;
 
-void fun0(int n)
-{
-        cout << "Happy birthday\n";
-}
+// void fun0(int n)
+// {
+//         cout << "Happy birthday\n";
+// }
 
 // void fun1(int n)
 // {
@@ -70,7 +71,7 @@ void fun0(int n)
 //         fun1(n-1);
 // }
 
-// for removing fun2 and fun1 because it print same as the  fun 3 fot that we will change slightly the code of fun3 that it will csll itself rather than fun 2 and fun 3.
+// for removing fun2 and fun1 because it print same as the  fun 3 fot that we will change slightly the code of fun3 that it will call itself rather than fun 2 and fun 3.
 
 void fun3(int n)
 {
@@ -81,8 +82,9 @@ void fun3(int n)
                 cout << "Hapy Birthday\n";
         }
 
-        //  if we dont't give base case then it will be stack overflow condition and it will occupy be matlab ka storage.
+        //  if we dont't give base case then it will be stack overflow condition and it will occupy be-matlab ka storage.
         // Or iske karan loop  infinite time chlega or program Crash kar jyega
+
         cout << n << " Days left for birthday\n";
         // fun2(n-1);
         // after removing fun2 and fun1 we write
@@ -94,5 +96,6 @@ int main()
         int n = 3;
         fun3(3);
 }
- */
+
+*/
 // STACK-OVERFLOW: ikse capacity s jyada dal dene se ho jta hai.

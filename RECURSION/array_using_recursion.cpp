@@ -101,6 +101,7 @@ int main()
 
 
 /* // --->recursive method
+
 #include <bits/stdc++.h>
 using namespace std;
 int sum(int arr[], int index,int n)
@@ -124,19 +125,19 @@ int main()
 
 // Recursive method
 
-#include <bits/stdc++.h>
-using namespace std;
-int minelement(int arr[],int index,int n)
-{
-    if(index==n-1)
-    return arr[index]; 
-    return min(arr[index],minelement(arr,index+1,n));
-}
-int main()
-{
-    int arr[]={3,4,1,2,8};
-    cout<<minelement(arr,0,5);
-}
+// #include <bits/stdc++.h>
+// using namespace std;
+// int minelement(int arr[],int index,int n)
+// {
+//     if(index==n-1)
+//     return arr[index]; 
+//     return min(arr[index],minelement(arr,index+1,n));
+// }
+// int main()
+// {
+//     int arr[]={3,4,1,2,8};
+//     cout<<minelement(arr,0,5);
+// }
 
 
 

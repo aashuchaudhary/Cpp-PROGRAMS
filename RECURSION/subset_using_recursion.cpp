@@ -71,7 +71,8 @@ void printSubsetsAndSums(int arr[], int index, int n, int sum, vector<int>& subs
     // Include
     currentSubset.push_back(arr[index]);
     printSubsetsAndSums(arr, index + 1, n, sum + arr[index], subsetSums, currentSubset);
-    currentSubset.pop_back(); // Backtrack to remove the last element and explore other possibilities
+    // Backtrack to remove the last element and explore other possibilities
+    currentSubset.pop_back(); 
 }
 
 int main() {
@@ -96,23 +97,23 @@ int main() {
 
 // Problem 2:Target sum
 
-#include<bits/stdc++.h>
-using namespace std;
-bool find(int arr[],int index,int n,int target)
-{
-    // base condition
-    if(target==0)
-    return 1;
-    if(index==n || target<0)
-    return 0;
+// #include<bits/stdc++.h>
+// using namespace std;
+// bool find(int arr[],int index,int n,int target)
+// {
+//     // base condition
+//     if(target==0)
+//     return 1;
+//     if(index==n || target<0)
+//     return 0;
 
-//    left and right 
-return find(arr,index+1,n,target) ||find(arr,index+1,n,target-arr[index]);
+// //    left and right 
+// return find(arr,index+1,n,target) ||find(arr,index+1,n,target-arr[index]);
 
-}
+// }
 
-int main(){ 
-    int arr[]={2,4,1,8,7};
-    int target=19;
-    cout<<find(arr,0,5,target)<<" ";
-}
+// int main(){ 
+//     int arr[]={2,4,1,8,7};
+//     int target=19;
+//     cout<<find(arr,0,5,target)<<" ";
+// }

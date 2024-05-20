@@ -41,8 +41,8 @@ int count(string str, int index)
 int main()
 {
     // Lower CASE KE LIEA HAI
-    string str = "afreen";
-    cout << count(str, 5)<<endl;
+    string str = "Dipu";
+    cout << count(str, 4)<<endl;
 } */
 
 // REVERSE A STRING

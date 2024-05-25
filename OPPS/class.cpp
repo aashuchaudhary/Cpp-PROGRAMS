@@ -195,6 +195,8 @@
 //     cout << sizeof(obj) << " ";
 // }
 
+
+// using pointer to call func in class
 #include<bits/stdc++.h> 
 using namespace std; 
 class Student

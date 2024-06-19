@@ -220,3 +220,27 @@ int main(){
 
     // S->name = "Ashu";
 }
+/* // using pointer to call func in class
+#include<bits/stdc++.h> 
+using namespace std; 
+class Student
+{
+    public:
+        string name;
+        int age, roll_no;
+        string grade;
+};
+int main(){
+    Student *S = new Student;
+    (*S).name = "Ashu";
+    (*S).age = 21 ;
+    (*S).roll_no = 2 ;
+    (*S).grade = "A++";
+
+    cout << S->name << " ";
+    cout << S->age << " ";
+    cout << S->roll_no << " ";
+    cout << S->grade<< " ";
+
+    // S->name = "Ashu";
+} */

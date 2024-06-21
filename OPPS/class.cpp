@@ -106,7 +106,7 @@
 //      public:
 //      void setname(string n)
 //      {
-//         // if inavelid string is pased then
+//         // if invalid string is pased then
 //         if(n.size() == 0)
 //         {
 //             cout<<"Invalid name: "<<endl;
@@ -208,6 +208,7 @@ class Student
 };
 int main(){
     Student *S = new Student;
+    // S->name = "Ashu";
     (*S).name = "Ashu";
     (*S).age = 21 ;
     (*S).roll_no = 2 ;
@@ -218,5 +219,4 @@ int main(){
     cout << S->roll_no << " ";
     cout << S->grade<< " ";
 
-    // S->name = "Ashu";
 }

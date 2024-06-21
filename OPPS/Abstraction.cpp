@@ -65,6 +65,9 @@ int main()
 
     customer A3("Appu", 3, 2800, 12);
 
+    // A1.updateage(-24);
+    // A1.deposit(210);
+    // A1.display();
     A1.updateage(-24);
     A1.deposit(210);
     A1.display();

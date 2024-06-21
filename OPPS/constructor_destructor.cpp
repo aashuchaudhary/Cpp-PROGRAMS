@@ -133,7 +133,7 @@ int main()
 // //     *balance = bal;   
 // // }
 
-// // Destructor 
+// // Destructor  is added automatically invoked at time when removed from object.
 // ~Customer()
 // {
 //     delete balance;

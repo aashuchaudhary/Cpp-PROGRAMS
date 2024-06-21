@@ -219,4 +219,33 @@ int main(){
     cout << S->roll_no << " ";
     cout << S->grade<< " ";
 
+<<<<<<< HEAD
 }
+=======
+    // S->name = "Ashu";
+}
+/* // using pointer to call func in class
+#include<bits/stdc++.h> 
+using namespace std; 
+class Student
+{
+    public:
+        string name;
+        int age, roll_no;
+        string grade;
+};
+int main(){
+    Student *S = new Student;
+    (*S).name = "Ashu";
+    (*S).age = 21 ;
+    (*S).roll_no = 2 ;
+    (*S).grade = "A++";
+
+    cout << S->name << " ";
+    cout << S->age << " ";
+    cout << S->roll_no << " ";
+    cout << S->grade<< " ";
+
+    // S->name = "Ashu";
+} */
+>>>>>>> 7ce11c0ae0ea1045e1828d2231d6ad3da9ebb35b

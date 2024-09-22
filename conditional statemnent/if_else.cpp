@@ -81,7 +81,7 @@
 //     }
 // }
 
-// WAP that the enteed age is adult child or  inavalid
+// WAP that the enteR age is adult child or  inavalid
 
 // #include<iostream>
 // using namespace std;
@@ -275,46 +275,46 @@
 //     cout << i << endl;
 // }
 
-// print numbers 1 to hundred in series like 1,4,7,20.....
+// print numbers 1 to 100 in series like 1,4,7,10.....
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//   int n, i;
-//   cout<<"Enter the number: ";
-//   cin >> n;
-//   for (i =1; i <=100 ;i=i+3)
-//     cout << i << endl;
-// }
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  int n, i;
+  cout<<"Enter the number: ";
+  cin >> n;
+  for (i =1; i <=100 ;i=i+3)
+    cout << i << endl;
+} */
 
 // print n table
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//   int i,n;
-//   cout<<"Enter the table: ";
-//   cin>>n;
-//   for (i=1;i<=10;i++)
-//   cout<<n*i<<endl;
-//   cout<<n<<"*"<<i<<"="<<n*i<<endl;
-// }
+/* #include<iostream>
+using namespace std;
+int main(){
+  int i,n;
+  cout<<"Enter the table: ";
+  cin>>n;
+  for (i=1;i<=10;i++)
+  cout<<n*i<<endl;
+  cout<<n<<"*"<<i<<"="<<n*i<<endl;
+} */
 
 // calculate power of a number
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//   int n, pow,i ,num;
-//   cout << "Enter the number and power: ";
-//   cin >> n >> pow;
-//   num = n;
-//   for (i = 1; i < pow; i++)
-//     num = num * n;
-//     cout<<num;
-// }
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  int n, pow,i ,num;
+  cout << "Enter the number and power: ";
+  cin >> n >> pow;
+  num = n;
+  for (i = 1; i < pow; i++)
+    num = num * n;
+    cout<<num;
+} */
 
 // sum of n natural number
 
@@ -361,66 +361,66 @@
 
 // wap a program of factorial
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//    int n, fact=1,i;
-//   cout << "Enter the number: ";
-//   cin >> n;
-//   for (i = 1; i <= n; i++)
-//     fact *= i;
-//   cout << fact;
-// }
+/* #include <iostream>
+using namespace std;
+int main()
+{
+   int n, fact=1,i;
+  cout << "Enter the number: ";
+  cin >> n;
+  for (i = 1; i <= n; i++)
+    fact *= i;
+  cout << fact;
+} */
 
-// WAP of prme number
+// WAP of prime number
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int n, i;
-//     cout << "Enter the number: ";
-//     cin >> n;
-//     if (n < 2)
-//     {
-//         cout << "Not Prime";
-//         return 0;
-//     }
-//     else
-//     {
-//         for (i = 2; i < n; i += 1)
-//         {
-//             if (n % i == 0)
-//             {
-//                 cout << "Not a prime";
-//                 return 0;
-//             }
-//         }
-//         cout << "Prime";
-//     }
-// }
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int n, i;
+    cout << "Enter the number: ";
+    cin >> n;
+    if (n < 2)
+    {
+        cout << "Not Prime";
+        return 0;
+    }
+    else
+    {
+        for (i = 2; i < n; i += 1)
+        {
+            if (n % i == 0)
+            {
+                cout << "Not a prime";
+                return 0;
+            }
+        }
+        cout << "Prime";
+    }
+} */
 
 // WAP of fabbonaci series
 
 // here p is previous, c is current , l is last  and fabo seies starts from 0 or 1 and  if having any difficulty then refer notes.
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int n,l=0,p=1,c,i;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     cout<<"Fabonacci Series: "<<endl;
-//     cout<<l<<" "<<p<<" ";  //print first two number
-//     for(i=2;i<=n;i++){
-//         c=p+l;
-//         cout<<c<<" ";
-//         l=p;
-//         p=c;
-//     }
-//         cout<<endl;
-// }
+/* #include<iostream>
+using namespace std;
+int main(){
+    int n,l=0,p=1,c,i;
+    cout<<"enter the number: ";
+    cin>>n;
+    cout<<"Fabonacci Series: "<<endl;
+    cout<<l<<" "<<p<<" ";  //print first two number
+    for(i=2;i<=n;i++){
+        c=p+l;
+        cout<<c<<" ";
+        l=p;
+        p=c;
+    }
+        cout<<endl;
+} */
 
 // pattern 1 printing
 
@@ -744,21 +744,21 @@
 
 // pattern 15
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col ;
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int row, col ;
 
-//     for (row = 5; row >=1; row --)
-//     {
-//         for (col = 1 ; col<=row; col++)
-//         {
-//           cout<<"* ";
-//         }
-//         cout << endl;
-//     }
-// }
+    for (row = 5; row >=1; row --)
+    {
+        for (col = 1 ; col<=row; col++)
+        {
+          cout<<"* ";
+        }
+        cout << endl;
+    }
+} */
 
 // or
 
@@ -777,6 +777,23 @@
 //         cout << endl;
 //     }
 // }
+
+// OR
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int i, j;
+    for (int i = 1; i <= 5; i = i + 1)
+    {
+
+        for (int j = 5; j >= i; j--)
+        {
+            cout << "*" << " ";
+        }
+        cout << endl;
+    }
+} */
 
 //   pattern 16
 
@@ -798,39 +815,39 @@
 
 // or
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col ;
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int row, col ;
 
-//     for (row = 5; row >=1; row --)
-//     {
-//         for (col = 1 ; col<=row ; col++)
-//         {
-//           cout<<col<<" ";
-//         }
-//         cout << endl;
-//     }
-// }
+    for (row = 5; row >=1; row --)
+    {
+        for (col = 1 ; col<=row ; col++)
+        {
+          cout<<col<<" ";
+        }
+        cout << endl;
+    }
+} */
 
 // PATTERN 17
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col;
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int row, col;
 
-//     for (row = 1; row <= 5; row++)
-//     {
-//         for (col = 5; col >= 5 - (row - 1); col--)
-//         {
-//             cout << col<<" ";
-//         }
-//         cout << endl;
-//     }
-// }
+    for (row = 1; row <= 5; row++)
+    {
+        for (col = 5; col >= 5 - (row - 1); col--)
+        {
+            cout << col<<" ";
+        }
+        cout << endl;
+    }
+} */
 
 // hard pattern (bole to advanced)
 
@@ -914,188 +931,188 @@
 
 // pattern 21 (character)
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int row,col;
-//     int n;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     for(row=1;row<=n;row++){
-//         // print spacing
-//         for (col=1;col<=n-row;col++){
-//             cout<<"  ";
-//         }
-//         // print character
-//         for(char name='A';name<='A'+row-1;name++){
-//             cout<<name<<" ";
-//         }
-//         cout<<endl;
-//     }
-// }
+/* #include<iostream>
+using namespace std;
+int main(){
+    int row,col;
+    int n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(row=1;row<=n;row++){
+        // print spacing
+        for (col=1;col<=n-row;col++){
+            cout<<"  ";
+        }
+        // print character
+        for(char name='A';name<='A'+row-1;name++){
+            cout<<name<<" ";
+        }
+        cout<<endl;
+    }
+} */
 
 // or
-
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int row,col;
-//     int n;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     for(row=1;row<=n;row++){
-//         // print spacing
-//         for (col=1;col<=n-row;col++){
-//             cout<<"  ";
-//         }
-//         // print character
-//         for(col=1;col<=row;col++){
-//             char name='A'+row-1;
-//             cout<<name<<" ";
-//         }
-//         cout<<endl;
-//     }
-// }
+/* 
+#include<iostream>
+using namespace std;
+int main(){
+    int row,col;
+    int n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(row=1;row<=n;row++){
+        // print spacing
+        for (col=1;col<=n-row;col++){
+            cout<<"  ";
+        }
+        // print character
+        for(col=1;col<=row;col++){
+            char name='A'+row-1;
+            cout<<name<<" ";
+        }
+        cout<<endl;
+    }
+} */
 
 // pattern 22 (important ques)
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int row,col;
-//     int n;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     for(row=1;row<=n;row++){
-//         // print spacing
-//         for (col=1;col<=n-row;col++){
-//             cout<<"  ";
-//         }
-//         // print number
-//         for(col=row;col>=1;col--){
+/* #include<iostream>
+using namespace std;
+int main(){
+    int row,col;
+    int n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(row=1;row<=n;row++){
+        // print spacing
+        for (col=1;col<=n-row;col++){
+            cout<<"  ";
+        }
+        // print number
+        for(col=row;col>=1;col--){
 
-//             cout<<col<<" ";
-//         }
-//         cout<<endl;
-//     }
-// }
+            cout<<col<<" ";
+        }
+        cout<<endl;
+    }
+} */
 
 // PATTEN 23 (PYRAMIND ) MOST IMPORTANT  QUES
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int row,col;
-//     int n;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     for(row=1;row<=n;row++){
-//         // print spacing
-//         for (col=1;col<=n-row;col++){
-//             cout<<"  ";
-//         }
-//         // print star(*)
-//         for(col=1;col<=(2*row-1);col++){
+/* #include<iostream>
+using namespace std;
+int main(){
+    int row,col;
+    int n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(row=1;row<=n;row++){
+        // print spacing
+        for (col=1;col<=n-row;col++){
+            cout<<"  ";
+        }
+        // print star(*)
+        for(col=1;col<=(2*row-1);col++){
 
-//             cout<<"* ";
-//         }
-//         cout<<endl;
-//     }
-// }
-
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
+}
+ */
 // pattern 24(IMPORTANT)
 
-// #include<iostream>
-// using namespace std;
-// int main(){
-//     int row,col;
-//     int n;
-//     cout<<"enter the number: ";
-//     cin>>n;
-//     for(row=1;row<=n;row++){
-//         // print spacing
-//         for (col=1;col<=n-row;col++){
-//             cout<<"  ";
-//         }
-//         // print number  1 TO ROW
-//         for(col=1;col<=row;col++){
-//             cout<<col<<" ";
-//         }
-//          //print row-1 to 1
-//         for(col=row-1;col>=1;col--)
-//         cout<<col<<" ";
-//         cout<<endl;
-//     }
-// }
+/* #include<iostream>
+using namespace std;
+int main(){
+    int row,col;
+    int n;
+    cout<<"enter the number: ";
+    cin>>n;
+    for(row=1;row<=n;row++){
+        // print spacing
+        for (col=1;col<=n-row;col++){
+            cout<<"  ";
+        }
+        // print number  1 TO ROW
+        for(col=1;col<=row;col++){
+            cout<<col<<" ";
+        }
+         //print row-1 to 1
+        for(col=row-1;col>=1;col--)
+        cout<<col<<" ";
+        cout<<endl;
+    }
+} */
 
 // PATTERN 25(IMPORTANT)
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//   int row,col,n;
-//   cout<<"Enter the number: ";
-//   cin>>n;
-//   for(row=n;row>=1;row--){
-//     //space
-//     for(col=1;col<=n-row;col++)
-//     //pattern print
-//     cout<<"  ";
-//     for(col=1;col<=2*row-1;col++)
-//     cout<<"*"<<" ";
-//   cout<<endl;
-//   }
-// }
+/* #include <iostream>
+using namespace std;
+int main()
+{
+  int row,col,n;
+  cout<<"Enter the number: ";
+  cin>>n;
+  for(row=n;row>=1;row--){
+    //space
+    for(col=1;col<=n-row;col++)
+    //pattern print
+    cout<<"  ";
+    for(col=1;col<=2*row-1;col++)
+    cout<<"*"<<" ";
+  cout<<endl;
+  }
+} */
 
 // pattern 26(VERY-IMPORTANT )
 
-// #include <iostream>
-// using namespace std;
-// int main()
-// {
-//     int row, col, n;
-//     cout << "Enter the number: ";
-//     cin >> n;
-// for(row=n;row>=1;row--){
+/* #include <iostream>
+using namespace std;
+int main()
+{
+    int row, col, n;
+    cout << "Enter the number: ";
+    cin >> n;
+for(row=n;row>=1;row--){
 
-//     //print *
+    //print *
 
-//     for(col=1;col<=row;col++)
-//     cout<<"* ";
+    for(col=1;col<=row;col++)
+    cout<<"* ";
 
-//     // print space
+    // print space
 
-//     for(col=1;col<=2*n-2*row;col++)
-//     cout<<"  ";
+    for(col=1;col<=2*n-2*row;col++)
+    cout<<"  ";
 
-//     //print pattern
-//     for(col=1;col<=row;col++)
-//     cout<<"* ";
-//     cout<<endl;
-// }
+    //print pattern
+    for(col=1;col<=row;col++)
+    cout<<"* ";
+    cout<<endl;
+}
+// second half
+for(row=1;row<=n;row++){
 
-// for(row=1;row<=n;row++){
+    //print *
 
-//     //print *
+    for(col=1;col<=row;col++)
+    cout<<"* ";
 
-//     for(col=1;col<=row;col++)
-//     cout<<"* ";
+    // print space
 
-//     // print space
+    for(col=1;col<=2*n-2*row;col++)
+    cout<<"  ";
 
-//     for(col=1;col<=2*n-2*row;col++)
-//     cout<<"  ";
+    //print pattern
+    for(col=1;col<=row;col++)
+    cout<<"* ";
+    cout<<endl;
 
-//     //print pattern
-//     for(col=1;col<=row;col++)
-//     cout<<"* ";
-//     cout<<endl;
+}
+} */
 
-// }
-// }
-
-//PATTERN -27(VERY -IMPORTANT)--BUTTERFLY 
+// PATTERN -27(VERY -IMPORTANT)--BUTTERFLY
 
 // #include <iostream>
 // using namespace std;
@@ -1113,12 +1130,11 @@
 //         for(col=1;col<=2*n-2*row;col++)
 //         cout<<"  ";
 
-//         //print pattern 
+//         //print pattern
 //         for(col=1;col<=row;col++)
 //         cout<<"* ";
 //     cout<<endl;
 //     }
-
 
 //     for(row=n-1;row>=1;row--){
 //         //print star (*)
@@ -1129,13 +1145,12 @@
 //         for(col=1;col<=2*n-2*row;col++)
 //         cout<<"  ";
 
-//         //print pattern 
+//         //print pattern
 //         for(col=1;col<=row;col++)
 //         cout<<"* ";
 //     cout<<endl;
 //     }
 // }
-
 
 // PATTRN 28(DIAMOND)
 
@@ -1153,6 +1168,7 @@
 //         cout<<"* ";
 //         cout<<endl;
 //     }
+// Second half
 //     for(row=n-1;row>=1;row--)
 //     {
 //         for(col=1;col<=n-row;col++)
@@ -1162,4 +1178,3 @@
 //         cout<<endl;
 //     }
 // }
-

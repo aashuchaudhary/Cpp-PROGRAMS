@@ -187,7 +187,7 @@ int main()
 
 // ARMSTRONG NUMBER USING FUNCTION : (REVISE)  IMPORTANT QUESTION 
 
-#include <iostream>
+/* #include <iostream>
 #include <cmath>
 using namespace std;
 
@@ -200,10 +200,10 @@ int countdigit(int n)
         n /= 10;
     }
     return count;
-}
+} */
 
 // bool Armstrong (int num, int digit)
-void Armstrong (int num, int digit)    //for void --> if we dont want to return
+/* void Armstrong (int num, int digit)    //for void --> if we dont want to return
 {
     int n = num, ans = 0, rem;
     while (n)
@@ -213,7 +213,7 @@ void Armstrong (int num, int digit)    //for void --> if we dont want to return
         ans = ans + pow(rem,digit); 
     }
     if (ans == num)
-        // return 1;
+        // return 1;  for void
         cout<<1;
     else
         // return 0;
@@ -233,3 +233,4 @@ int main()
     // for void we take this
     Armstrong(num, digit);  
 }
+ */

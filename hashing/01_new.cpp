@@ -1,3 +1,4 @@
+// Seperate chaining to handel collision
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -7,7 +8,7 @@ class Hashing
     int buckets;
 
 public:
-    Hashing(int size)
+    Hashing(int size) //constructor
     {
         buckets = size;
         hashtable.resize(size);
@@ -36,13 +37,12 @@ public:
     // Function to delete a particular key
     void deleteKey(int key)
     {
+        // Check if value is present or not
         int idx = hashvalue(key);
-        list<int>::iterator it = searchKey(key);
+        if(searchKey(key)!=hashtable[idx].end()){ //key is present
 
-        if (it != hashtable[idx].end())
-        { // Key is present
-            hashtable[idx].erase(it);
-            cout << key << " is deleted" << endl;
+        hashtable[idx].erase(searchKey(key));
+        cout<< key <<" "<<"is deleted"<<endl;
         }
         else
         {
@@ -53,9 +53,10 @@ public:
 
 int main()
 {
+    // Object Hashing
     Hashing h(10); // Correct instantiation without 'new'
     h.addKey(3);
-    h.addKey(3);
+    h.addKey(9);
     h.addKey(2);
     h.addKey(1);
 
